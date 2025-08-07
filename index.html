@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Mullaert</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="visually-hidden">Sebastian Mulaert</h1>
+    <main>
+        <!-- START email -->
+        <section class="email">
+            <div class="container">
+                <span class="email__text-small">(Booking)</span>
+                <div class="email__form">
+                    <h2 class="email__title">Send <i> an email</i></h2>
+                    <span class="email__text">If you have a general or project enquiry, please drop me an email —
+                        available now</span>
+                    <form action="resalt.html" method="POST">
+                        <div class="email__wrapper-form">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="Your email">
+                        </div>
+                        <div class="email__wrapper-form">
+                            <label for="Name">Name</label>
+                            <input type="name" name="name" placeholder="Your name">
+                        </div>
+                        <div class="email__wrapper-form">
+                            <label for="Message">Message</label>
+                            <input type="Message" name="Message" placeholder="Start typing here">
+                        </div>
+                        <div class="email__wrapper-form">
+                            <label for="Project type">Project type</label>
+                            <select name="Choose">
+                                <option disabled="Choose" selected class="active"> Choose</option>
+                                <option value="Reserve for personal event" class="option">Reserve for personal event</option>
+                                <option value="Buy tickets for a next concert">Buy tickets for a next concert</option>
+                                <option value="Reserve from a venue">Reserve from a venue</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <input type="checkbox" >
+                        <label for="checkbox">I agree to receive ocasional newsletter with latest news and updates</label>
+                        <div class="email__bottom">
+                            <img src="./img/line.svg" alt="line">
+                            <button type="submit">Send</button>
+                        </div>
+                </div>
+                </form>
+            </div>
+            </div>
+        </section>
+        <!-- END email -->
+    </main>
+</body>
+
+</html>
